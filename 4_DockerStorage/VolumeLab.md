@@ -68,3 +68,17 @@ docker exec -it testagain /bin/bash
 ```
 
 Check for the files. Files should be present.
+
+Remove the container and Volume 
+
+```bash
+docker rm test
+docker rm testagain
+docker volume rm testvol
+```
+
+Prune command to delete all volumes and get reclaimed space
+
+```bash
+docker volume prune
+```
