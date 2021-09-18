@@ -48,7 +48,7 @@ docker stop test
 TO get the path of our volume 
 
 ```bash
-docker volume inspect test
+docker volume inspect testvol
 ```
 
 To see the fils on the volume 
