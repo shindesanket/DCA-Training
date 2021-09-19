@@ -27,11 +27,11 @@ docker service ps firstservice
 ## Inspect the service to get more details 
 
 ```bash
-docker service inspect firstservice
+docker service inspect firstservice --pretty
 ```
 
 ```bash
-docker service inspect secondservice
+docker service inspect secondservice --pretty
 ```
 
 ## Service Logs 
