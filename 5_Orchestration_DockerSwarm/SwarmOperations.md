@@ -64,6 +64,14 @@ List the all nodes and observe the availability column for worker node
 docker node ls
 ```
 
+Execute below command on worker node which we want to delete
+
 ```bash
 docker swarm leave
+```
+
+Run below command to remove entry of down node from docker node ls
+
+```bash
+docker node rm <<node name OR id>>
 ```
